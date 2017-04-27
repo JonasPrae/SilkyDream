@@ -351,6 +351,8 @@
     <Content Include="App_Data\NuGetBackup\20170425-182207\Config\Lang\ru-RU.user.xml" />
     <Content Include="App_Data\NuGetBackup\20170425-182207\Config\Lang\sv-SE.user.xml" />
     <Content Include="App_Data\NuGetBackup\20170425-182207\Config\Lang\zh-CN.user.xml" />
+    <Content Include="bin\Silky.dll" />
+    <Content Include="bin\Silky.pdb" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -3026,9 +3028,7 @@
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="bin\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
